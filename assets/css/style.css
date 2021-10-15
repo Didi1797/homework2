@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #252B42;
+    background-color: #363636;
+    
+}
+
+.main  {
+    background-image: url(../img/mainimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+    
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    padding-top: 36px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.37rem;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    letter-spacing: 0.1px;
+    color: #252B42;
+    text-decoration: none;
+    padding-right: 117px;
+    
+}
+
+
+.nav-list  {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #737373;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    text-align: center;
+    padding-right: 21px;
+
+}
+
+.empower {
+    padding-top: 116px;
+}
+
+.empower-cont {
+    max-width: 550px;
+}
+
+.empower-cont h1 {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    /* or 138% */
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+
+.empower-cont p {
+    padding: 35px 0px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    letter-spacing: 0.2px;
+    /* second-text-color */
+    color: #737373;
+    max-width: 376px;
+}
+
+.empower-cont button {
+    border-radius: 37px;
+    padding: 10px 36px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+
+text-align: center;
+letter-spacing: 0.2px;
+}
+
+.btn-first {
+    color: #fff;
+    background: #FFA62B;
+    border: 0;
+    
+}
+
+.btn-second {
+    color: #00A0C1;
+    border: 1px solid #00A0C1;
+    background: none;
+}
+
+.empower-row {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 80px;
+    
+    
+    
+}
+
+.empower-column {
+    width: 33.333%;
+    margin-right: 30px;
+    background-color: #fff;
+    
+    
+}
+
+
+
+
+.item {
+    max-width: 328px;
+    margin: 35px 40px;    
+}
+
+
+.item-title h3 {
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    letter-spacing: 0.1px;
+} 
+
+
+.item-title p {
+    max-width: 205px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    letter-spacing: 0.2px;
+    /* second-text-color */
+    color: #737373;
+}
+
+.empower-column:nth-last-child(1){
+    background: #00A0C1;
+    color: #fff;
+    
+}
